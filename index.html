@@ -1,15 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <script defer src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.google-analytics.com/analytics.js"
+    ></script>
+    <!-- CSS STYLES -->
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+      }
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bgimg-1 {
+        background-image: url("https://i.imgur.com/QEq8R2F.png");
+        min-height: 90%;
+      }
+
+      .bgimg-2 {
+        background-image: url("https://i.imgur.com/mtCCTeF.jpg");
+        min-height: 400px;
+      }
+
+      .bgimg-3 {
+        background-image: url("https://i.imgur.com/zE8wfaHm.png");
+        min-height: 400px;
+      }
+
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
+
     <title>Perice Pope</title>
-</head>
-<body>
-    <p class="card-panel hoverable">Heey!</p>
-</body>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a class="logo-name" href="#" class="brand-logo">Perice Pope</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">About Me</a></li>
+          <li><a href="badges.html">Story Music</a></li>
+          <li><a href="collapsible.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">Perice K. Pope</span>
+        <span class="border">Software Engineer and musician inspired by creativity</span>
+      </div>
+    </div>
+
+    <div
+      style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
+    >
+      <h3 style="text-align:center;">Random Variations & Music Machine (React & React Native)</h3>
+      <p>
+        Music machine was written in React and so war RV 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ex ea blanditiis voluptatem corrupti alias amet praesentium repellendus 
+        laborum exercitationem fugit 
+        vel aliquid optio non eos, delectus dolorem dolorum. Ipsum, beatae.
+      </p>
+      <img src="https://i.imgur.com/zE8wfaH.png" alt="">
+    </div>
+
+    <div class="bgimg-2">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
+          >LESS HEIGHT</span
+        >
+      </div>
+    </div>
+
+    <div style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
+      >
+        <p>
+          Scroll up and down to really get the feeling of how Parallax Scrolling
+          works.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-3">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
+          >SCROLL UP</span
+        >
+      </div>
+    </div>
+
+    <div style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
+      >
+        <p>
+          Scroll up and down to really get the feeling of how Parallax Scrolling
+          works.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">COOL!</span>
+      </div>
+    </div>
+  </body>
 </html>
