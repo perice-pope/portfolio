@@ -1,170 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Compiled CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <script defer src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.google-analytics.com/analytics.js"
-    ></script>
-    <!-- CSS STYLES -->
-    <style>
-      body,
-      html {
-        height: 100%;
-        margin: 0;
-        font: 400 15px/1.8 "Lato", sans-serif;
-        color: #777;
-      }
 
-      .bgimg-1,
-      .bgimg-2,
-      .bgimg-3 {
-        position: relative;
-        opacity: 0.65;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .bgimg-1 {
-        background-image: url("https://i.imgur.com/QEq8R2F.png");
-        min-height: 90%;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Compiled CSS -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <title>Perice Pope</title>
 
-      .bgimg-2 {
-        background-image: url("https://i.imgur.com/mtCCTeF.jpg");
-        min-height: 400px;
-      }
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+</head>
 
-      .bgimg-3 {
-        background-image: url("https://i.imgur.com/zE8wfaHm.png");
-        min-height: 400px;
-      }
+<body>
 
-      .caption {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-      }
+  <!--Navbar-->
+  <nav class="navbar navbar-light amber lighten-4 mb-4">
 
-      .caption span.border {
-        background-color: #111;
-        color: #fff;
-        padding: 18px;
-        font-size: 25px;
-        letter-spacing: 10px;
-      }
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Perice Pope</a>
 
-      h3 {
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        font: 20px "Lato", sans-serif;
-        color: #111;
-      }
+    <!-- Collapse button -->
+    <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <div class="animated-icon1"><span></span><span></span><span></span></div>
+    </button>
 
-      /* Turn off parallax scrolling for tablets and phones */
-      @media only screen and (max-device-width: 1024px) {
-        .bgimg-1,
-        .bgimg-2,
-        .bgimg-3 {
-          background-attachment: scroll;
-        }
-      }
-    </style>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
-    <title>Perice Pope</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a class="logo-name" href="#" class="brand-logo">Perice Pope</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">About Me</a></li>
-          <li><a href="badges.html">Story Music</a></li>
-          <li><a href="collapsible.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="bgimg-1">
-      <div class="caption">
-        <span class="border">Perice K. Pope</span>
-        <span class="border">Software Engineer and musician inspired by creativity</span>
-      </div>
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.linkedin.com/in/pericepope/" target="_blank">Social Media<span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me" target="_blank">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.storymusic.org" target="_blank">Story Music</a>
+        </li>
+      </ul>
+      <!-- Links -->
+
     </div>
+    <!-- Collapsible content -->
 
-    <div
-      style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
-    >
-      <h3 style="text-align:center;">Random Variations & Music Machine (React & React Native)</h3>
-      <p>
-        Music machine was written in React and so war RV 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Ex ea blanditiis voluptatem corrupti alias amet praesentium repellendus 
-        laborum exercitationem fugit 
-        vel aliquid optio non eos, delectus dolorem dolorum. Ipsum, beatae.
-      </p>
-      <img src="https://i.imgur.com/zE8wfaH.png" alt="">
-    </div>
+  </nav>
+  <!--/.Navbar-->
 
-    <div class="bgimg-2">
-      <div class="caption">
-        <span
-          class="border"
-          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
-          >LESS HEIGHT</span
-        >
-      </div>
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">Perice Pope</span>
+      <br><span class="border">Software Engineer</span></br>
     </div>
+  </div>
 
-    <div style="position:relative;">
-      <div
-        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
-      >
-        <p>
-          Scroll up and down to really get the feeling of how Parallax Scrolling
-          works.
-        </p>
-      </div>
-    </div>
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Random Variations & Band Sandbox</h3>
+    <p>
+      Band Sandbox is a realtime live music making enviornment.
+      Users can explore sounds together and practice in real time with a metronome after sign-up.
+      Random Variations is a music theory practice tool focused on randomizing musical elements for mastery.
+      Perice served as Product Manager and now the sole developer for this product.
+      Technologies used: React Js, React Native, Socket.io, CSS, Javascript, MongoDB, Node JS, Express
+    </p>
 
-    <div class="bgimg-3">
-      <div class="caption">
-        <span
-          class="border"
-          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
-          >SCROLL UP</span
-        >
-      </div>
-    </div>
+    <div id="pic1" class="image-container">
 
-    <div style="position:relative;">
-      <div
-        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
-      >
-        <p>
-          Scroll up and down to really get the feeling of how Parallax Scrolling
-          works.
-        </p>
-      </div>
-    </div>
+      <a href="https://random-variations.herokuapp.com/" target="_blank">
+        <img src="https://i.imgur.com/zE8wfaH.png" alt="">
+      </a>
 
-    <div class="bgimg-1">
-      <div class="caption">
-        <span class="border">COOL!</span>
-      </div>
+      <a style="
+      background-color: grey;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      float: right;" href="https://github.com/perice-pope/random-variations" target="_blank">My Code</a>
     </div>
-  </body>
+    <div id="pic2">
+      <a href="https://band-sandbox.herokuapp.com/" target="_blank">
+        <img style="margin-left: 10%" src="https://i.imgur.com/sME6O9f.png" alt="">
+      </a>
+
+      <br><a style="
+      background-color: grey;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;" href="https://github.com/perice-pope/band-sandbox" target="_blank">My Code</a></br>
+    </div>
+  </div>
+
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:rgb(26, 25, 25);font-size:25px;color: #ffffff;">SUPERHEROES DB</span>
+    </div>
+  </div>
+
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">SUPERHEROES & MCTUNES</h3>
+    <p>
+      SUPERHEROES DB is a superhero batabase where users can search thru classic comic superheroes and find inspiration
+      to create their own.
+      McTunes is an app for sharing your favorite songs and music videos. This app supports commenting by all users that
+      are signed up.
+      SUPERHEROES was a group development while McTunes was developed by me alone.
+      Technologies used: Django, Python 3, HTML 5, CSS, Javascript, MongoDB, Node JS, Express
+    </p>
+    <a href="http://superhero-database-sei.herokuapp.com" target="_blank">
+      <img src="https://i.imgur.com/YO1nkU8.png" alt="">
+    </a>
+
+    <a style="
+      background-color: grey;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      float: right;" href="https://github.com/davekoncsol/superheroes" target="_blank">My Code</a>
+
+    <a href="https://tunestalk.herokuapp.com/" target="_blank">
+      <img style="margin-left: 10%" src="https://i.imgur.com/enqObDk.png" alt="">
+    </a>
+
+    <br><a style="
+      background-color: grey;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;" href="https://github.com/perice-pope/tunes-talk" target="_blank">My Code</a></br>
+
+  </div>
+
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;">RANDOM VARIATIONS</span>
+    </div>
+  </div>
+
+  <div class="bgimg-1" id="about-me">
+    <div class="caption">
+      <span class="border" class="form-control no-border">
+        I’m a Software Engineer with a background in music performance & education.
+        I write full-stack web-based programs inspired by new technologies to help creative people be MORE creative.
+        When I am not working, I am playing music or trying new food somewhere by the sea.
+
+        I hold a Master's degrees from Michigan State University in Jazz Music Pedagogy. Afterwards, I went on to intern
+        with Micheal A. Levine and begin my career as a professional in film music production.
+        I have toured as a trumpeter with the Count Basie Jazz Orchestra and a host of other jazz, salsa, and pop
+        singers.
+        I'm a featured soloist in Johnny Depp's / Amber Heard's "London Fields", and has recorded with Anderson Paak,
+        Che'Nelle, and a host of others.
+
+        Software Skills: JavaScript, React.js, Vanilla Javascript, JQuery, Python, HTML5, CSS3, AJAX, SASS, Bootstrap,
+        Styled-Components, Materialize, Trello, SQLite, Terminal, MySQL, Heroku, PostgreSQL, Postman, Express, Node.js,
+        MongoDB, Mongoose, Git, GitHub.
+
+      </span>
+    </div>
+  </div>
+</body>
+
 </html>
