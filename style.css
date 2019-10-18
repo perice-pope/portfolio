@@ -10,18 +10,44 @@
   box-sizing: content-box;
 }
 
+.border {
+  border: 1px solid transparent!important;
+}
+
+.container-fluid {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
   .bgimg-1,
   .bgimg-2,
   .bgimg-3 {
     position: relative;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;    
+    /* This will fix background image */
     background-repeat: no-repeat;
     background-size: cover;
   }
   .bgimg-1 {
     background-image: url("https://i.imgur.com/QEq8R2F.png");
     min-height: 90%;
+  
   }
 
   .bgimg-2 {
@@ -30,8 +56,9 @@
   }
 
   .bgimg-3 {
-    background-image: url("https://i.imgur.com/zE8wfaHm.png");
+    background-image: url("https://i.imgur.com/UvFPJIz.jpg");
     min-height: 400px;
+    opacity: .6;
   }
 
   .caption {
@@ -56,15 +83,6 @@
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
     color: #111;
-  }
-
-  /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
-    background-attachment: scroll;
-    }
   }
 
   img {
@@ -95,7 +113,6 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
   font-size: 20px;
 }
 
@@ -136,7 +153,7 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #e65100;
+background: #7f89e0;
 }
 
 .animated-icon2 span {
@@ -267,4 +284,8 @@ opacity: 0;
 transform: rotate(-45deg);
 top: 21px;
 left: 8px;
+}
+
+.mb-4, .my-4 {
+  margin-bottom: 0px!important;
 }
