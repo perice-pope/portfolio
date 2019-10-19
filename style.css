@@ -67,7 +67,8 @@
     top: 35%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
     font-size: 25px; 
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -93,9 +94,10 @@
 
   .caption span.border {
     background-color: transparent; 
-    color: rgb(0, 0, 0); 
-    font-size: 19px; 
+    color: rgb(255, 255, 255); 
+    font-size: 22px; 
     letter-spacing: 2px; 
+    font-family: 'Times New Roman', Times, serif;
   }
 
   #about-me {
